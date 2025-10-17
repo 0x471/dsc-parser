@@ -1,0 +1,24 @@
+{
+  "originHash" : "f595971694cd723250a1928a0803663dd380fb2f173c4dab567d4d46e646cdcb",
+  "pins" : [
+    {
+      "identity" : "nfcpassportreader",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AndyQ/NFCPassportReader",
+      "state" : {
+        "revision" : "4a29a9b954c8ea0d4d35b96af6fe1849258b31e1",
+        "version" : "2.2.0"
+      }
+    },
+    {
+      "identity" : "openssl",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/OpenSSL.git",
+      "state" : {
+        "revision" : "623c84da314e85363236507ca38a4bde65df21c3",
+        "version" : "3.3.3001"
+      }
+    }
+  ],
+  "version" : 3
+}

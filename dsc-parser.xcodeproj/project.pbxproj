@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A65CD81F2EA1CA8300E5040A /* NFCPassportReader in Frameworks */ = {isa = PBXBuildFile; productRef = A65CD81E2EA1CA8300E5040A /* NFCPassportReader */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A65CD8032EA1C82000E5040A /* dsc-parser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dsc-parser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65CD81F2EA1CA8300E5040A /* NFCPassportReader in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = "dsc-parser";
 			packageProductDependencies = (
+				A65CD81E2EA1CA8300E5040A /* NFCPassportReader */,
 			);
 			productName = "dsc-parser";
 			productReference = A65CD8032EA1C82000E5040A /* dsc-parser.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = A65CD7FA2EA1C82000E5040A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A65CD81D2EA1CA8300E5040A /* XCRemoteSwiftPackageReference "NFCPassportReader" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A65CD8042EA1C82000E5040A /* Products */;
 			projectDirPath = "";
@@ -351,6 +360,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A65CD81D2EA1CA8300E5040A /* XCRemoteSwiftPackageReference "NFCPassportReader" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AndyQ/NFCPassportReader";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A65CD81E2EA1CA8300E5040A /* NFCPassportReader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A65CD81D2EA1CA8300E5040A /* XCRemoteSwiftPackageReference "NFCPassportReader" */;
+			productName = NFCPassportReader;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A65CD7FB2EA1C82000E5040A /* Project object */;
 }
